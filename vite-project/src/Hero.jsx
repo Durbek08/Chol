@@ -14,10 +14,9 @@ export default function Hero() {
                     <path d="M1.21429 2.71436L11.5 9.00007L21.7857 2.71436" stroke="white" stroke-width="2" stroke-linecap="round"/>
                     </svg>
                     <p className="">hi@yourname.com</p>
-                    
                 </button>
             </div>
-            <img src={img2} alt="" className=" object-cover  lg:mx-auto" />
+            <img src={img2} alt="" className="md:max-w-[400px] max-w-[240px] mx-auto md:h-[400px] h-[240px] object-cover  lg:mx-auto" />
         </div>
    </div>
   )
