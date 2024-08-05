@@ -4,7 +4,7 @@ import GallaryImg3 from "./img/Gallary/4img.png";
 import GallaryImg4 from "./img/Gallary/5img.png";
 import GallaryImg1 from "./img/Gallary/6img.png";
 
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default function Featured() {
   return (
@@ -33,8 +33,8 @@ export default function Featured() {
           </a>
           <div className="md:grid md:grid-cols-2 grid-cols-1 gap-6 flex flex-col items-center justify-center">
             <div className="flex flex-col gap-5">
-              <Link
-                to="/article"
+              <a
+                href="/article"
                 className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
               >
                 <img
@@ -45,9 +45,9 @@ export default function Featured() {
                 <span className=" flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
                   InVersion
                 </span>
-              </Link>
-              <Link
-                to="/article"
+              </a>
+              <a
+                href="/article"
                 className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
               >
                 <img
@@ -58,11 +58,12 @@ export default function Featured() {
                 <span className=" flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
                   InVersion
                 </span>
-              </Link>
+              </a>
             </div>
             <div className=" md:pt-[138px] flex flex-col gap-5">
-              <Link
-                to="/article"
+              <a
+                href="/article"
+            
                 className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
               >
                 <img
@@ -73,9 +74,9 @@ export default function Featured() {
                 <span className=" flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
                   InVersion
                 </span>
-              </Link>
-              <Link
-                to="/article"
+              </a>
+              <a
+                href="/article"
                 className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
               >
                 <img
@@ -86,7 +87,7 @@ export default function Featured() {
                 <span className=" flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
                   InVersion
                 </span>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
