@@ -3,6 +3,7 @@ import Header from './Header'
 import Hero from './Hero'
 import Featured from './Featured'
 import Visual from './Visual'
+import Personal from './Personal'
 
 
 

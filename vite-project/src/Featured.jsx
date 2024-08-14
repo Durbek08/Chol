@@ -35,27 +35,27 @@ export default function Featured() {
             <div className="flex flex-col gap-5">
               <a
                 href="/article"
-                className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
+                className="relative group rounded md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
               >
                 <img
                   src={GallaryImg2}
                   alt="GallaryImg"
                   className="object-cover md:h-full flex mb-6 rounded md:w-full w-[350px] h-[450px]  "
                 />
-                <span className=" flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
+                  <span className=" flex group-hover:left-0 items-center justify-center text-[#DEDEDE] text-4xl rounded absolute left-[-100%]  top-0  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
                   InVersion
                 </span>
               </a>
               <a
                 href="/article"
-                className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
+                className="relative group rounded  md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
               >
                 <img
                   src={GallaryImg3}
                   alt="GallaryImg"
                   className="object-cover md:h-full flex mb-6 rounded md:w-full w-[350px] h-[450px]  "
                 />
-                <span className=" flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
+                <span className=" flex group-hover:left-0 items-center justify-center text-[#DEDEDE] text-4xl rounded absolute left-[-100%]  top-0  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
                   InVersion
                 </span>
               </a>
@@ -64,27 +64,27 @@ export default function Featured() {
               <a
                 href="/article"
             
-                className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
+                className="relative group rounded  md:w-full overflow-hidden md:h-[888px] gallery   w-[350px] h-[450px] "
               >
                 <img
                   src={GallaryImg4}
                   alt="GallaryImg"
                   className="object-cover md:h-full flex mb-6 rounded md:w-full w-[350px] h-[450px]  "
                 />
-                <span className=" flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
+                <span className=" flex group-hover:left-0 items-center justify-center text-[#DEDEDE] text-4xl rounded absolute left-[-100%]  top-0  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
                   InVersion
                 </span>
               </a>
               <a
                 href="/article"
-                className="relative md:w-full md:h-[888px] gallery overflow-hidden w-[350px] h-[450px] "
+                className="relative group rounded  md:w-full overflow-hidden md:h-[888px] gallery   w-[350px] h-[450px] "
               >
                 <img
                   src={GallaryImg1}
                   alt="GallaryImg"
                   className="object-cover md:h-full flex mb-6 rounded md:w-full w-[350px] h-[450px]  "
                 />
-                <span className=" flex items-center justify-center text-[#DEDEDE] text-4xl rounded absolute top-0 right-full  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
+                <span className=" flex group-hover:left-0 items-center justify-center text-[#DEDEDE] text-4xl rounded absolute left-[-100%]  top-0  md:h-full md:w-full w-[350px] h-[450px] bg-[#00000099] transition-all ">
                   InVersion
                 </span>
               </a>
