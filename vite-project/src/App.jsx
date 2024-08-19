@@ -6,6 +6,7 @@ import Visual from './Visual'
 import Personal from './Personal'
 import Contact from './Contact'
 import Footer from './Footer'
+import Work from './Work'
 
 
 
@@ -19,6 +20,7 @@ export default function  App() {
       <Personal/>
       <Contact/>
       <Footer/>
+      <Work/>
     </div>
   )
 }
